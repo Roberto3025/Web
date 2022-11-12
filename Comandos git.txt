@@ -1,0 +1,27 @@
+**************************
+* Comandos Basicos Linux *
+**************************
+* clear					======> 	 Limpia la consola de cdm
+* mkdir					======>	 Crear una nueva carpeta
+* cd nombre-carpeta / cd ..		======>	 Sirve para avanzar a una carpeta / sirve para retroceder
+* ls -a					======> 	 Muestra todos los archivos hasta los ocultos 
+* start .					======>	 Abrir carpetas en windows
+
+*********************************
+* Comandos Git de configuracion *
+*********************************
+* git config --list 							======>	 Para saber si nuestras credenciales estan configuradas en la pc
+* git config --global user.name "Roberto3025"			======>	 Para setear o vincular el usuario de git
+* git config --global user.email "navarro449@gmail.com"	======>	 Para setear o vincular el correo de git
+* git log									======>	 Para ver el historial de mis commits
+
+*********************************
+* Comandos Git de configuracion *
+*********************************
+* git init						======> 	 Sirve para iniciar un proyecto con git, esto solos e hace la primera vez que iniciemos el proyecto, creara una carpeta oculta llamada .git
+*								 	 Master o Main = es la rama principal de trabajo
+* git add .						======>	 Sirve para agregar los cambrios en la memoria local de git ( . = hace referencia a aqui - all)
+* git status					======>	 Te permite visualizar los cambios en la memoria local verde guardado / rojo = aun no subidos
+* git commit -m "Creacion de Manual Git"	======>	 Crea un punto de cambio (commit) / m = message
+* git push origin main				======>
+* git commit --amend --no-edit		======>	 une los cambios de dos commits en uno solo en el primero
